@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       <section
-        className="relative min-h-screen bg-cover bg-center"
+       className="relative min-h-screen bg-cover bg-center pb-24"
         style={{
           backgroundImage: "url('/hero-bg.jpg')",
         }}
@@ -87,7 +87,7 @@ export default function Home() {
         </div>
       </section>
       {/* TRUST BADGES */}
-      <div className="relative z-20 px-6 md:px-16 -mt-8">
+      <div className="relative z-20 px-6 md:px-16 mt-10 pb-10">
         <div className="grid grid-cols-2 md:grid-cols-5 gap-5 bg-[#0b3b1d]/80 backdrop-blur-xl rounded-3xl p-8 shadow-[0_20px_60px_rgba(0,0,0,0.45)] border border-white/10">
           {/* Badge 1 */}
           <div className="text-center text-white">
