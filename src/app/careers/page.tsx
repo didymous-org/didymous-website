@@ -8,17 +8,17 @@ export default function CareersPage() {
   const jobs = [
     {
       title: "Sales Executive",
-      location: "Tamil Nadu",
+      location: "Mandideep,Bhopal",
       experience: "Fresher / Experienced",
     },
     {
       title: "Factory Helper",
-      location: "Local Area",
+      location: "Mandideep,Bhopal",
       experience: "Any",
     },
     {
       title: "Marketing Executive",
-      location: "Remote / Office",
+      location: "Mandideep,Bhopal",
       experience: "1+ Years",
     },
   ];

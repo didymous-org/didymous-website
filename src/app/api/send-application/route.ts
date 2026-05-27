@@ -33,7 +33,7 @@ export async function POST(req: Request) {
     const data = await resend.emails.send({
       from: "HR Team <hr@didymous.org>",
 
-      to: "idchshrikant@gmail.com",
+      to: "info@didymous.org",
 
       subject: `New Job Application - ${position}`,
 
