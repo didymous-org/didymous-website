@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       <section
-       className="relative min-h-screen bg-cover bg-center pb-24"
+        className="relative min-h-screen bg-cover bg-center pb-24"
         style={{
           backgroundImage: "url('/hero-bg.jpg')",
         }}
@@ -34,6 +34,9 @@ export default function Home() {
             <a href="#">About</a>
             <a href="#">Products</a>
             <a href="#">Contact</a>
+            <a href="/careers" className="hover:text-yellow-400 transition">
+              Careers
+            </a>
           </div>
 
           <button className="bg-yellow-400 hover:bg-yellow-300 transition px-7 py-3 rounded-full font-semibold text-black shadow-xl">
