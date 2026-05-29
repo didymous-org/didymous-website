@@ -107,13 +107,13 @@ export default function Home() {
           <div className="relative flex justify-center mt-10 lg:mt-10">
             <div className="absolute w-[500px] h-[500px] bg-yellow-300/15 blur-3xl rounded-full"></div>
 
-            <Image
+            {/* <Image
               src="/premium-bag.png"
               alt="Tirumala Bag"
               width={600}
               height={520}
               className="relative z-10 drop-shadow-[0_35px_35px_rgba(0,0,0,0.6)] hover:scale-105 transition duration-500"
-            />
+            /> */}
           </div>
         </div>
       </section>
