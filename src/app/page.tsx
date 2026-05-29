@@ -15,68 +15,62 @@ export default function Home() {
 
         {/* Navbar */}
         {/* Navbar */}
-<nav className="relative z-20 px-6 md:px-16 py-5 bg-transparent">
+        <nav className="relative z-20 px-6 md:px-16 py-5 bg-transparent">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+            {/* LOGO */}
+            <Image
+              src="/tirumala-logo.png"
+              alt="Logo"
+              width={180}
+              height={180}
+              className="object-contain w-28 md:w-44"
+              priority
+            />
 
-  <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+            {/* NAV LINKS */}
+            <div className="flex flex-wrap justify-center gap-4 md:gap-10 text-white text-sm md:text-lg font-medium">
+              <a
+                href="#"
+                className="hover:text-yellow-300 transition duration-300"
+              >
+                Home
+              </a>
 
-    {/* LOGO */}
-    <Image
-      src="/tirumala-logo.png"
-      alt="Logo"
-      width={180}
-      height={180}
-      className="object-contain w-28 md:w-44"
-      priority
-    />
+              <a
+                href="#"
+                className="hover:text-yellow-300 transition duration-300"
+              >
+                About
+              </a>
 
-    {/* NAV LINKS */}
-    <div className="flex flex-wrap justify-center gap-4 md:gap-10 text-white text-sm md:text-lg font-medium">
+              <a
+                href="#"
+                className="hover:text-yellow-300 transition duration-300"
+              >
+                Products
+              </a>
 
-      <a
-        href="#"
-        className="hover:text-yellow-300 transition duration-300"
-      >
-        Home
-      </a>
+              <a
+                href="/careers"
+                className="hover:text-yellow-400 transition duration-300"
+              >
+                Careers
+              </a>
 
-      <a
-        href="#"
-        className="hover:text-yellow-300 transition duration-300"
-      >
-        About
-      </a>
+              <a
+                href="/contact"
+                className="hover:text-yellow-400 transition duration-300"
+              >
+                Contact
+              </a>
+            </div>
 
-      <a
-        href="#"
-        className="hover:text-yellow-300 transition duration-300"
-      >
-        Products
-      </a>
-
-      <a
-        href="/careers"
-        className="hover:text-yellow-400 transition duration-300"
-      >
-        Careers
-      </a>
-
-      <a
-        href="#"
-        className="hover:text-yellow-300 transition duration-300"
-      >
-        Contact
-      </a>
-
-    </div>
-
-    {/* BUTTON */}
-    <button className="bg-yellow-400 hover:bg-yellow-300 transition px-6 md:px-7 py-3 rounded-full font-semibold text-black shadow-xl text-sm md:text-base">
-      Enquire Now
-    </button>
-
-  </div>
-
-</nav>
+            {/* BUTTON */}
+            <button className="bg-yellow-400 hover:bg-yellow-300 transition px-6 md:px-7 py-3 rounded-full font-semibold text-black shadow-xl text-sm md:text-base">
+              Enquire Now
+            </button>
+          </div>
+        </nav>
 
         {/* Hero Content */}
         <div className="relative z-10 grid lg:grid-cols-2 items-center px-6 md:px-16 pt-10 md:pt-20">
