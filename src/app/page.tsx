@@ -36,12 +36,12 @@ export default function Home() {
                 Home
               </a>
 
-              <a
-                href="#"
-                className="hover:text-yellow-300 transition duration-300"
-              >
-                About
-              </a>
+             <a
+  href="/about"
+  className="hover:text-yellow-300 transition duration-300"
+>
+  About
+</a>
 
               <a
                 href="#"
